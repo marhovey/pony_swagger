@@ -1,0 +1,37 @@
+.index{
+  .top-bar{
+    display: flex;
+    .search-box{
+      flex: 1;
+      .search{
+        border-radius: 4px;
+        outline: none;
+        margin: 0 16px 0 24px;
+        display: inline-flex;
+        &:hover{
+          background-color: rgba(255, 255, 255, .25);
+        }
+        align-items: center;
+        background-color: rgba(255, 255, 255, .15);
+        .search-icon{
+          padding: 0 16px;
+          display: inline-flex;
+          align-items: center;
+        }
+        .search-ipt{
+          color: #ffffff;
+          font-size: 14px;
+        }
+      }
+    }
+    
+    .top-bar-right-actions{
+
+    }
+  }
+  .container{
+    padding-top: 80px;
+    box-sizing: border-box;
+    min-height: 100vh;
+  }
+}
