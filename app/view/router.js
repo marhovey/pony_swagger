@@ -11,16 +11,16 @@ export const routes = [
   },
   {
     component: Index,
-    path: '/index',
+    path: '/',
     routes: [
       {
-        component: Project,
-        path: 'project/:id',
+        component: ProjectList,
+        path: '/index',
         exact: true
       },
       {
-        component: ProjectList,
-        path: '',
+        component: Project,
+        path: '/project/:id',
         exact: true
       },
     ]

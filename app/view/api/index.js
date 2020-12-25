@@ -36,6 +36,7 @@ export const user = {
 
 export const project = {
   getList: (config) => createAPI('/projects', 'get', config),
+  getDetail: (config) => createAPI(`/projects/${config.projectId}`, 'get', config),
   copyProject: (config) => createAPI('/projects/:id', 'post', config),
   deleteProject: (config) => createAPI('/projects/:id', 'delete', config),
   addProject: (config) => createAPI('/projects', 'post', config),
