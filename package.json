@@ -19,12 +19,16 @@
     "freemarker": "^2.1.0",
     "fs-extra": "^9.0.1",
     "js-beautify": "^1.13.0",
+    "lodash": "^4.17.20",
+    "memoizee": "^0.4.14",
     "mongoose": "^5.11.8",
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
     "react-router": "^5.2.0",
     "react-router-config": "^5.1.1",
-    "react-router-dom": "^5.2.0"
+    "react-router-dom": "^5.2.0",
+    "swagger-client": "^3.12.1",
+    "swagger-tools": "^0.10.4"
   },
   "devDependencies": {
     "autod": "^3.0.1",

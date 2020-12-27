@@ -3,7 +3,7 @@
 const Service = require('egg').Service;
 
 class ProjectService extends Service {
-  async SyncSwagger() {
+  async SyncSwagger(ctx) {
     
   }
 }
